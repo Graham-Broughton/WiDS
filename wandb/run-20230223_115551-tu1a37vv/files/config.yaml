@@ -1,0 +1,143 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.10
+    framework: lightgbm
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    m:
+    - 1: training_rmse
+      6:
+      - 3
+      7:
+      - 1
+    - 1: valid_1_rmse
+      6:
+      - 3
+      7:
+      - 1
+    python_version: 3.8.10
+    start_time: 1677153361.873762
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 12
+      - 35
+      - 53
+      - 54
+      - 55
+      2:
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 12
+      - 35
+      - 53
+      - 54
+      - 55
+      3:
+      - 7
+      - 13
+      - 16
+      - 23
+      - 25
+      4: 3.8.10
+      5: 0.13.10
+      8:
+      - 1
+      - 5
+bagging_fraction:
+  desc: null
+  value: 0.5506819666606092
+bagging_freq:
+  desc: null
+  value: 7
+boosting_type:
+  desc: null
+  value: gbdt
+colsample_bytree:
+  desc: null
+  value: 1.0
+device_type:
+  desc: null
+  value: gpu
+early_stopping_round:
+  desc: null
+  value: 60
+early_stopping_rounds:
+  desc: null
+  value: 60
+feature_fraction:
+  desc: null
+  value: 0.8188112280144617
+lambda_l1:
+  desc: null
+  value: 0.2006078773479767
+lambda_l2:
+  desc: null
+  value: 8.031493717209619e-06
+learning_rate:
+  desc: null
+  value: 0.0018484560691998558
+max_depth:
+  desc: null
+  value: -1
+metric:
+  desc: null
+  value:
+  - rmse
+min_child_samples:
+  desc: null
+  value: 82
+min_child_weight:
+  desc: null
+  value: 1
+min_split_gain:
+  desc: null
+  value: 0.0
+n_estimators:
+  desc: null
+  value: 19337
+num_iterations:
+  desc: null
+  value: 19337
+num_leaves:
+  desc: null
+  value: 376
+num_threads:
+  desc: null
+  value: 6
+objective:
+  desc: null
+  value: regression
+random_state:
+  desc: null
+  value: null
+reg_alpha:
+  desc: null
+  value: 0.0
+reg_lambda:
+  desc: null
+  value: 0.0
+subsample:
+  desc: null
+  value: 1.0
+subsample_for_bin:
+  desc: null
+  value: 200000
+subsample_freq:
+  desc: null
+  value: 0
+verbosity:
+  desc: null
+  value: -1
